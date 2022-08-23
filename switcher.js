@@ -13,3 +13,4 @@ function switcheroo(x){
     return newStr;
 }
 console.log(switcheroo('aabbcc'))   // 'bbaacc'
+console.log('hello test')
