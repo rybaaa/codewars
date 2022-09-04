@@ -1,5 +1,8 @@
-function check(a, x) {
-    return (a.indexOf(x) >= 0);
+function inAscOrder(arr) {
+    for (let i = 1; i <= arr.length; i++) {
+        if (arr[i-1] > arr[i]) {
+            return false;
+        } 
   }
-console.log(check([1,2,3], 3));       //true
-console.log(check([1,2,'true'], 3));    //false
+}
+console.log(inAscOrder([1,2,3]))
